@@ -1,90 +1,102 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-list">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skill">Skills</a>
+        <a href="#Contents">Contents</a>
+        <a href="#Access">Access</a>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
+    </header>
+    <div id="Home" class="home-section">
+      <h1 class="title">Kitaのポートフォリオ</h1>
+      <p>きたのぽーとふぉりお</p>
+    </div>
+    <div id="About" class="about-section">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="about-class">
+          <img src="top.png">
+          <div class="about-text">
+            <p>愛知県出身のエンジニア</p>
+            <p>愛知県立大学で情報科学研究を行ったのちに、SIerとしてIT業界に従事。</p>
+            <p>その後、人間関係にて精神の調子を崩し、会社を退職。</p>
+          </div>
+        </div>
       </div>
     </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
+    <div id="Skill" class="skill-section">
+      <div class="container">
+        <h2>My Skills</h2>
+        <a>以下に自分が学んできた言語を掲示します。</a>
+        <div>
+          <h3>使用したスキル</h3><span>星3:業務経験あり　星2:業務経験なしの独学　星1:大学で学んだ程度</span>
+          <p>COBOL	★★★☆☆</p>
+          <p>Java	★★★☆☆</p>
+          <p>HTML5	★★☆☆☆</p>
+          <p>CSS3	★★☆☆☆</p>
+          <p>JavaScript	★★☆☆☆</p>
+          <p>C#	★★☆☆☆</p>
+          <p>DB2	★★☆☆☆</p>
+          <p>Haskell ★★☆☆☆</p>
+          <p>YMM4	★★☆☆☆</p>
+          <p>C	★☆☆☆☆</p>
+        </div>
+
+<h3>今までの業務内容</h3>
+<p>コーディング(COBOL,Java)<br><br>
+単体テスト仕様書作成<br><br>
+テストデータ作成<br><br>
+単体テスト実施<br><br>
+エビデンス取得</p>
+      </div>
+    </div>
+    <div id="Contents" class="contents-section">
+      <div class="container">
+        <h2>My Contents</h2>
+        <p>以下に自分が作成したコンテンツを掲示します。</p>
+        <div class="contents">
+          <h3>制作物置き場のGithub</h3>
+          <a href="https://github.com/K-T-dott/K-T-dott.github.io"> 
+            <img src="Contents.jpg">
+          </a>
+          <p>各種制作物を格納しているGithubへのリンクです。制作物は主にC#またはPythonで作られており、ソースコードや使い方などを示しています。</p>
+        </div>
+        <div class="contents">
+          <h3>ポートフォリオサイト</h3>
+          <a href="#"> 
+            <img src="Contents.jpg">
+          </a>
+          <p>このポートフォリオサイトです。見やすいようにできるだけシンプルにすることを心掛けました。また、朝鮮内容としてページ内ジャンプおよびスライドの実装を行いました。</p>
+        </div>
+        <div class="contents">
+          <h3>youtubeチャンネル</h3>
+          <a href="https://www.youtube.com/@%E3%83%8E%E3%82%B9-w3d"> 
+            <img src="screen.png">
+          </a>
+          <p>作成したYoutubeチャンネルです。主にゲームの企画を何十回にわたりこなしており、視聴者数も徐々に伸びております。</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div id="Access" class="access-section">
+      <div class="container">
+        <h2>Access</h2>
+        <p>以下のリンクから、私にコンタクトをとることができます。</p>
+        <p class="mail">メールアドレス:<span class="address">kthrak.2000@gmail.com</span></p>
         <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
+        <a href="https://www.youtube.com/@%E3%83%8E%E3%82%B9-w3d" class="access youtube"><i class="fa-solid fa-clapperboard"></i>Youtube</a>
       </div>
     </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
+  </body>
 </html>
