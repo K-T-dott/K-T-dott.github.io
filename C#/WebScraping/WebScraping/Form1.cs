@@ -55,10 +55,12 @@ namespace WebScraping
             }
             catch (Exception ex)
             {
+                //URLが入力なしの場合
                 if (URLBox.Text.Equals(""))
                 {
                     ErrorText.Text = "URLを入力してください";
                 }
+                //XPathが入力なしの場合
                 else if (TagBox.Text.Equals(""))
                 {
                     ErrorText.Text = "XPathを入力してください";
