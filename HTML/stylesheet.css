@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  position:relative;
 }
 
 body{
@@ -30,13 +31,42 @@ body{
     background-color: rgba(255, 255, 255, 0.3);
   }
 
+  .spaces-section{
+    height: 60px;
+    background-color:black;
+  }
+
   .home-section{
     text-align: center;
-    padding: 50px 80px;
+    height:100vh;
+    background-image:url("Home.jpg");
+    background-size: cover;
+    color:white;
+    position: relative;
+  }
+
+  .home-section .container{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width:80%;
+    height:204px;
+    padding:auto;
+    margin: auto;
+    background-color:black;
+    opacity: 0.8;
+  }
+
+  .home-section h1{
+    padding-top:30px;
   }
 
   .about-section{
+    background-color: white;
     padding:50px 80px;
+    height:400px;
   }
 
   .container{
@@ -46,7 +76,7 @@ body{
   .about-section img{
     margin:0 auto;
     float:left;
-    width: 30%;
+    width: 20%;
   }
 
   .about-text{
@@ -59,10 +89,14 @@ body{
   }
 
   .skill-section{
+    background-color: lightgray;
+    margin-top:200px;
     padding:50px 80px;
   }
 
   .contents-section{
+    background-color: white;
+    margin-top:130px;
     padding:50px 80px;
     text-align: center;
   }
@@ -82,6 +116,8 @@ body{
   }
 
   .access-section{
+    background-color: lightgray;
+    margin-top:100px;
     padding:100px;
     text-align: center;
   }
