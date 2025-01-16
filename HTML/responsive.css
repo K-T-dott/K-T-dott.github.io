@@ -4,8 +4,16 @@
     width:90%;
   }
 
+  .about-section{
+    height:500px;
+  }
+
   .about-section img{
     width: 80%;
+  }
+
+  .contents{
+    height:400px;
   }
 }
 
