@@ -24,6 +24,15 @@
 /* モバイル向けレイアウト */
 @media all and (max-width: 670px) {
 
-    #ハンバーガーメニューを表示する
+  .header-list a{
+    padding:5px;  
+  }
     #各種コンテンツをページの大きさ100パーセントに合わせて出力する
+  .contents img{ 
+    width:100%;
+  }
+
+  .skill-section{
+    padding:30px 80px;
+  }
 }
