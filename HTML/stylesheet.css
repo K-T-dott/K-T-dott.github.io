@@ -107,9 +107,10 @@ body{
     float:left;
   }
 
-.up-contents-container{
+  .up-contents-container{
     height:375px;
-}
+  }
+
   .contents img{
     width: 80%;
   }
