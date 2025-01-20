@@ -25,11 +25,19 @@
 @media all and (max-width: 670px) {
 
   .header-list a{
-    padding:5px;  
+    padding:18px 5px;  
   }
     #各種コンテンツをページの大きさ100パーセントに合わせて出力する
   .contents img{ 
     width:100%;
+  }
+
+  .about-section{
+    padding:30px 80px;
+  }
+
+  .contents-section{
+    padding:30px 80px;
   }
 
   .skill-section{
